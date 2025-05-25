@@ -8,7 +8,7 @@ rate = 0.05
 # years that the money has been invested
 time = 3
 
-interest = (principal * rate * time)
+interest = principal * rate * time
 
 # interest earned
 print(f"The simple interest is: {interest}")
