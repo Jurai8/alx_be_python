@@ -13,4 +13,4 @@ time = 3
 interest = (principal * rate * time)
 
 # TODO add a fullstop
-print(f"The simple interest is: {interest}.")
+print(f"The simple interest is: {interest}")
