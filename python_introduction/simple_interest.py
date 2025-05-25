@@ -1,6 +1,4 @@
 
-# interest earned
-
 # principle amount (initial investment)
 principal = 1000
 
@@ -12,5 +10,5 @@ time = 3
 
 interest = (principal * rate * time)
 
-# TODO add a fullstop
-print(f"The simple interest is: {interest}.")
+# interest earned
+print(f"The simple interest is: {interest}")
