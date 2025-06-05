@@ -1,5 +1,3 @@
-
-
 def perform_operation(num1, num2, operation):
     answer = 0
     # match case for each operation
@@ -20,3 +18,4 @@ def perform_operation(num1, num2, operation):
                 return num1 / num2         
         case _:
             return "No operation"
+
