@@ -1,5 +1,17 @@
 from datetime import datetime, timedelta
 
+def display_current_datetime():
+    print(f"Current date and time: {datetime.now()} ")
+
+    return
+
+def calculate_future_date(number_of_days):
+    future = timedelta(days=+number_of_days) + datetime.now()
+
+    print(f"Future date: { future.strftime('%Y-%m-%d') }")
+
+    return
+
 def main():
 
     def options():
@@ -15,13 +27,11 @@ def main():
 
         match choice:
             case "1":
-                print(f"Current date and time: {datetime.now()} ")
+                display_current_datetime()
             case "2":
                 number_of_days = int(input("Enter the number of days to add to the current date: "))
 
-                future = timedelta(days=+number_of_days) + datetime.now()
-
-                print(future.strftime("%Y-%m-%d"))
+                calculate_future_date(number_of_days)          
             case "3":
                 return
             case _:
