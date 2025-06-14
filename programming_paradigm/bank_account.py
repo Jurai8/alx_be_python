@@ -6,7 +6,7 @@ class BankAccount:
     def deposit(self, amount):
         self.account_balance = amount
 
-        print(f"Deposited: ${self.account_balance:.1f}")
+        # print(f"Deposited: ${self.account_balance:.1f}")
 
     def withdraw(self, amount):
 
