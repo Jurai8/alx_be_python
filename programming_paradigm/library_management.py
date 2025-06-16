@@ -15,7 +15,7 @@ class Book:
 
 class Library():
     def __init__(self):
-        self.__books = []
+        self._books = []
 
     def add_book(self, title, author):
         # create a new book object
