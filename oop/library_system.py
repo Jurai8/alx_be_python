@@ -15,7 +15,7 @@ class EBook(Book):
     def __str__(self):
         base_str = super().__str__()
 
-        return f"{base_str}, File Size: {self.page_count}"
+        return f"{base_str}, File Size: {self.file_size}"
    
 
 class PrintBook(Book):
