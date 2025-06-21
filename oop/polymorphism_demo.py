@@ -5,7 +5,7 @@ class Shape:
     def area(self):
         raise NotImplementedError("Subclasses must implement the 'area' method.")
     
-class Rectangle (Shape):
+class Rectangle(Shape):
     def __init__(self, length, width):
         self.length = length
         self.width = width
@@ -13,7 +13,7 @@ class Rectangle (Shape):
     def area(self):
         return self.length * self.width
     
-class Circle (Shape):
+class Circle(Shape):
     def __init__(self, radius):
         self.radius = radius
 
